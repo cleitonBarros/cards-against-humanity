@@ -1,8 +1,7 @@
-/** biome-ignore-all assist/source/useSortedAttributes: <explanation> */
+/** biome-ignore-all assist/source/useSortedAttributes: <nao quero> */
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
 import Link from "next/link"
 import { MatchCard } from "../../../components/card-rotate"
 
@@ -42,10 +41,8 @@ export default function Hero() {
               Jogar agora
             </Link>
             <Link
-              href="https://www.flowersandsaints.com.au"
+              href="/about"
               target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-foreground text-sm leading-6"
             >
                Mais informaçoes <span aria-hidden="true">→</span>
             </Link>

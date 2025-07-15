@@ -25,34 +25,29 @@ export default function Header() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
         <div className="flex ">
-          <Link className="p-1.5" href="/" >
+          <Link className="p-1.5" href="/home" >
             <p className=" text-base text-black lg:text-xl dark:text-white">Cards <strong >Against</strong> Humanity</p>
           </Link>
         </div>
         <div className=" hidden gap-x-12 sm:flex">
           <Link
             className="font-semibold text-foreground text-sm leading-6 transition-colors hover:text-primary"
-            href="https://www.flowersandsaints.com.au"
-            rel="noopener noreferrer"
-            target="_blank"
+            href="/tutorial"
           >
-            Work
+            Tutorial
           </Link>
           <Link
             className="font-semibold text-foreground text-sm leading-6 transition-colors hover:text-primary"
-            href="https://www.flowersandsaints.com.au"
-            rel="noopener noreferrer"
-            target="_blank"
+            href="/about"
           >
-            About
+            Sobre 
           </Link>
           <Link
             className="font-semibold text-foreground text-sm leading-6 transition-colors hover:text-primary"
-            href="https://www.flowersandsaints.com.au"
-            rel="noopener noreferrer"
-            target="_blank"
+            href="/home#faq"
+            
           >
-            Contact
+            FQA
           </Link>
         </div>
         <div className="flex justify-end">
